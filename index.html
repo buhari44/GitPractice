@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Assignment</title>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-   <h1>computer science</h1>
-   <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum laudantium iusto expedita, ducimus maxime aspernatur <br>saepe maiores doloribus numquam quaerat, vel porro libero nesciunt veritatis, beatae nisi deleniti architecto debitis.</h2>
-   <h3>
-       submitted to:
-   </h3>
-   <h4>
-      Mr Ndubusi
-   </h4>
-   <h5>
-       com 225
-   </h5>
-   <h6>
-       web technology
-   </h6>
 
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit adipisci excepturi alias labore? Cum ea inventore cupiditate consequatur placeat deserunt debitis! Aut et sed iure commodi inventore non. Recusandae, quis.</p>
+<body>
+    <div class="form-container">
+        <div class="form-header">
+            <div class="logo">
+                <div></div>
+            </div>
+        </div>
+        <div id="form">
+            <form action="" onsubmit="submitForm()">
+               
+                <div class="input-wrapper">
+                    <label for="email"></label>
+                    email
+                    <input type="email" name="" id="" placeholder="jonndoe@gmail.com" required>
+                </div>
+
+
+                <div class="input-wrapper">
+                    <label for="password">
+                    </label>
+                    password <input type="password" name="" id="password" placeholder="******" required>
+                </div>
+                <div class="input-wrapper">
+                    <label for="confim password"></label>
+                    confirm password <input type="password" name="" id="Cpassword" placeholder="*****" required>
+                </div>
+
+                <button type="submit">sign up</button>
+                <p>Already have any account? sign in</p>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
-<script src="index.js"></script>
+
 </html>
